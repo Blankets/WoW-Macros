@@ -1,0 +1,52 @@
+// Dispel 
+#showtooltip
+/cast [mod:alt] Arcane Torrent(Racial); [@mouseover, harm, nodead][mod:shift, @focus][@target] Consume Magic
+
+
+// Interrupt
+#showtooltip
+/cast [@mouseover, harm, nodead][mod:shift, @focus][@target] Disrupt
+
+
+// Imprison
+#showtooltip
+/cast [@mouseover, harm, nodead][mod:shift, @focus][@target] Imprison
+
+
+// Taunt/Glaive
+#showtooltip
+/cast [mod:shift, harm, nodead, @mouseover][mod:shift, @target] Torment; [harm, nodead, @mouseover][@target] Throw Glaive
+
+
+// Fiery Brand
+#showtooltip
+/cast [@mouseover, harm, nodead][mod:shift, @focus][@target] Fiery Brand
+
+
+// Infernal Strike
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Infernal Strike
+
+
+// Spec agnostic Meta
+#showtooltip
+/cast [spec:1, mod:alt][spec:1, mod:shift, @player][spec:1, @cursor][] Metamorphosis
+
+
+// Sigils
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Sigil of Chains
+
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Sigil of Flame
+
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Sigil of Misery
+
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Sigil of Silence
+
+
+// Elysian Decree
+#showtooltip
+/cast [mod:alt][mod:shift, @player][@cursor] Elysian Decree(Kyrian)
