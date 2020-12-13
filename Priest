@@ -1,0 +1,28 @@
+#showtooltip
+/cast [mod:shift, nodead, harm, @mouseover] [mod:shift, nodead, harm, @target] Mind Sear; [@mouseover, harm, nodead] [@target] Mind Flay
+
+
+#showtooltip Dispel Magic
+/cast [@mouseover, help, nodead] [@target, help, nodead]Purify Disease;  [@mouseover, harm, nodead] @target, [harm, nodead] Dispel Magic; [@player] Purify Disease
+
+
+#showtooltip
+/cast [mod:shift, @mouseover, harm, nodead] [mod:shift, @target] Psychic Horror; Psychic Scream
+
+
+#showtooltip
+/cast [@mouseover, help, nodead] [] Power Word: Shield
+
+
+#showtooltip
+/cast [@mouseover, harm] [@target] Silence
+
+
+#showtooltip
+/cast [@mouseover, harm, nodead] [@target] Shadow Word: Pain
+
+
+#showtooltip
+/cast [@mouseover, harm, nodead] [@target] Vampiric Touch
+
+
