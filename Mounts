@@ -1,0 +1,4 @@
+#showtooltip Traveler's Tundra Mammoth
+/script if SecureCmdOptionParse("[mounted]") then local n=1; local ef, lf = UnitFactionGroup("player"); if ef == "Horde" then n=2 end; EjectPassengerFromSeat(n); end
+/cast [nomounted] Traveler's Tundra Mammoth
+
